@@ -1,0 +1,117 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgb(0, 18, 5);
+  background-image: url('./leaves2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgba(0, 255, 251, 0.3);
+}
+
+.todo-container {
+  background-color: rgba(0, 255, 251, 0.63);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 700px;
+  text-align: center;
+}
+
+h1, h2 {
+  font-weight: bold;
+  font-size: 24px;
+  margin: 0 0 20px 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.new-task-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#new-task-input {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #44ff00;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#add-task-button {
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+  margin-left: 10px; 
+}
+
+.todo-list {
+  list-style-type: none;
+  padding: 0;
+  background-color: rgba(0, 255, 251, 0.803);
+  border-radius: 5px;
+  text-align: left; 
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px; 
+  margin: 0 50px; 
+  font-weight: bold; 
+  font-size: 18px; 
+}
+
+.task-item img {
+  width: 30px; 
+  height: 30px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.check-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.edit-icon {
+  width: 24px; 
+  height: 24px;
+}
+
+.delete-icon {
+  width: 24px; 
+  height: 24px;
+}
+
+.archive-icon {
+  width: 24px;
+  height: 24px;
+}

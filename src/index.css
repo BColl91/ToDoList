@@ -52,12 +52,10 @@ ul {
   align-items: center;
   margin-bottom: 20px;
   width: 100%;
-  border: solid red;;
 }
 
 #new-task-input {
   flex: 1;
-  padding: 15px;
   border-radius: 5px;
   font-weight: bold;
   font-size: 20px;
@@ -80,7 +78,6 @@ ul {
   cursor: pointer;
   font-weight: bold;
   font-size: 18px;
-  margin-left: 10px; 
 }
 
 .new-task-container button {
@@ -91,7 +88,6 @@ ul {
   font-weight: bold;
   font-size: 24px; 
   margin-left: 10px; 
-  /* display: flex; */
   align-items: center;
   justify-content: center;
   background-color: #00ff4c; 

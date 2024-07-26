@@ -115,3 +115,72 @@ ul {
   width: 24px;
   height: 24px;
 }
+
+/* Media Queries for Responsive Design */
+
+@media (max-width: 768px) {
+  .todo-container {
+    width: 90%;
+    padding: 30px;
+  }
+
+  h1, h2 {
+    font-size: 22px;
+  }
+
+  #new-task-input {
+    padding: 15px;
+    font-size: 16px;
+  }
+
+  #add-task-button {
+    padding: 12px;
+    font-size: 16px;
+  }
+
+  .task-item {
+    padding: 15px;
+    margin: 0 20px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .todo-container {
+    width: 95%;
+    padding: 20px;
+  }
+
+  h1, h2 {
+    font-size: 20px;
+  }
+
+  #new-task-input {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  #add-task-button {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .task-item {
+    padding: 10px;
+    margin: 0 10px;
+    font-size: 14px;
+  }
+
+  .task-item img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .check-icon,
+  .edit-icon,
+  .delete-icon,
+  .archive-icon {
+    width: 20px;
+    height: 20px;
+  }
+}

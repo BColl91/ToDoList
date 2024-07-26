@@ -14,7 +14,7 @@ const TodoInput = ({ addTodo }) => {
   return (
     <div className = "new-task-container">
     <form onSubmit={handleSubmit}>
-      <input
+      <input className="input-box"
         type="text"
         value={text}
         onChange={(e) => setText(e.target.value)}
